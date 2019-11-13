@@ -1,0 +1,49 @@
+@charset "utf8";
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tempo_dia {
+  border: 2px solid #b2b2b2;
+  width: 330px;
+  float: left;
+  margin: 5px;
+  padding: 5px;
+}
+.img,
+.temperatura,
+.umidade {
+  display: inline-block;
+  width: 95px;
+  padding: 5px;
+}
+
+.max {
+  color: #f00;
+}
+
+.min {
+  color: #00f;
+}
+
+.umidade {
+  color: #16dd16;
+}
+
+.min,
+.max,
+.umidade {
+  text-align: center;
+  font-weight: bold;
+}
+
+.chuvoso {
+  color: #06861a;
+  font-weight: bold;
+}
+
+#main {
+  width: 750px;
+  margin: 0 auto;
+}
